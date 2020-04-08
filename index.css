@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500vw;
+    height: 300vh;
+    background: lightgoldenrodyellow;
+    overflow: hidden;
+}
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.bg{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+}
+.b1{
+    background: url("./images/mountain-one.png");    
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.b2{
+    background: url("./images/mountain-two.png");
+    z-index: 8;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.b3{
+    background: url("./images/mountain-three.png");
+    z-index: 6;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.b4{
+    background: url("./images/mountain-four.png");
+    z-index: 4;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.b5{
+    background: url("./images/mountain-five.png");
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.baloon{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    background: url("./images/air-baloon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
